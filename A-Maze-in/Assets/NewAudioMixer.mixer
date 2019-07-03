@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewAudioMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - ac8ac34f19b224e6f86af2d4531f01e2
+    - 663eb3df062ef44d2acb318dd2fc81ca
+    - eba3b4aff3e5043d2a0dbdc79e3c67d3
+    - 270ebd6d3cabe44f3a9f783d3d730734
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: ac8ac34f19b224e6f86af2d4531f01e2
+  m_Children:
+  - {fileID: 243494599733371810}
+  - {fileID: 243430687856982548}
+  - {fileID: 243254193245598244}
+  m_Volume: 542a532a300a4420fafa2d94586e6993
+  m_Pitch: ccf1c0f73d5024f7ba9c0ecf84e41812
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 384a0064263774a7c8bf69d1cbffc30c
+  m_EffectName: Attenuation
+  m_MixLevel: 0db904dade73f49568dfb714d742bc60
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 4a4135fcac26b4a5f847170e8aae3163
+  m_FloatValues:
+    b71420527c1324e1e9eb4e9e5984f7e0: 0
+    6fbd3f928ee674ee995f62bd050d3414: -54.12991
+    2631b7141416f4c919f702553c630a2d: 1
+    9e902065d4f974aa9a87dc24202813c1: -11.535828
+    cf70f9860df824be89d6a397a46f4079: 0
+    1f8060a9f14744b9b93f58e403f79a79: -0.102314636
+    542a532a300a4420fafa2d94586e6993: -0.8840523
+    54fffd2afcc384677b6472263dd1fbfe: 1
+    f653698d826f24d9598804c94fee4025: 0
+  m_TransitionOverrides: {}
+--- !u!243 &243254193245598244
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX Listener-Centric Reverb
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 270ebd6d3cabe44f3a9f783d3d730734
+  m_Children: []
+  m_Volume: 9e902065d4f974aa9a87dc24202813c1
+  m_Pitch: 0115991f236654f7d8cbf65913a4f5c2
+  m_Effects:
+  - {fileID: 244577185715211748}
+  - {fileID: 244044380497166678}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243430687856982548
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SteamAudioMixerReturn
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 663eb3df062ef44d2acb318dd2fc81ca
+  m_Children: []
+  m_Volume: 1f8060a9f14744b9b93f58e403f79a79
+  m_Pitch: ff8f4a66b859049579b9f54138bb2fe7
+  m_Effects:
+  - {fileID: 244005244411109470}
+  - {fileID: 244837250703269124}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243494599733371810
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Original Walking Sounds
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: eba3b4aff3e5043d2a0dbdc79e3c67d3
+  m_Children: []
+  m_Volume: 6fbd3f928ee674ee995f62bd050d3414
+  m_Pitch: 4e28dbec3f8e34db0bca85b2a50930eb
+  m_Effects:
+  - {fileID: 244138058047299352}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244005244411109470
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: ae0bc84ebae8444e08c8f8f94456eab1
+  m_EffectName: Attenuation
+  m_MixLevel: b1672371d3fb14b4ab897ea9607a610e
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244044380497166678
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 969e78f6745c94f9488723ba488349e3
+  m_EffectName: Steam Audio Reverb
+  m_MixLevel: dd4373984cc104b24a3a680b808c7409
+  m_Parameters:
+  - m_ParameterName: Binaural
+    m_GUID: 54fffd2afcc384677b6472263dd1fbfe
+  - m_ParameterName: Type
+    m_GUID: b71420527c1324e1e9eb4e9e5984f7e0
+  - m_ParameterName: BypassAtInit
+    m_GUID: cf70f9860df824be89d6a397a46f4079
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244138058047299352
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: b86b1d1070b18472886da2546b3c5250
+  m_EffectName: Attenuation
+  m_MixLevel: e84e0aedfa1944fe587d520d5957f64c
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244577185715211748
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 9ce6ce92e1b9d438c9490c3cb13a3e36
+  m_EffectName: Attenuation
+  m_MixLevel: f24c1c560c69844929a1396fe9266645
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244837250703269124
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 3729efaffff5540379efb2d35ede080e
+  m_EffectName: Steam Audio Mixer Return
+  m_MixLevel: 54f3c23a6da234ec784528093b3d1135
+  m_Parameters:
+  - m_ParameterName: Binaural
+    m_GUID: 2631b7141416f4c919f702553c630a2d
+  - m_ParameterName: BypassAtInit
+    m_GUID: f653698d826f24d9598804c94fee4025
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
