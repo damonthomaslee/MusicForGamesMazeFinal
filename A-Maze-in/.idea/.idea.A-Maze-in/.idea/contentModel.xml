@@ -7,6 +7,10 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="1MusicForGames2" t="Include">
+          <e p="AdvanceScene.cs" t="Include" />
+          <e p="click.cs" t="Include" />
+        </e>
         <e p="Editor" t="Include">
           <e p="CrossPlatformInput" t="Include">
             <e p="CrossPlatformInputInitialize.cs" t="Include" />
@@ -26,9 +30,6 @@
             <e p="TonemappingEditor.cs" t="Include" />
             <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
           </e>
-        </e>
-        <e p="Lee" t="Include">
-          <e p="click.cs" t="Include" />
         </e>
         <e p="MazeGenerator" t="Include">
           <e p="demo" t="Include">
@@ -304,13 +305,14 @@
           <e p="SteamAudioSource.cs" t="Include" />
           <e p="Version.cs" t="Include" />
         </e>
+        <e p="triggerAudio.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_A-Maze-in.1152161692.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_A-Maze-in.-1581486821.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>
