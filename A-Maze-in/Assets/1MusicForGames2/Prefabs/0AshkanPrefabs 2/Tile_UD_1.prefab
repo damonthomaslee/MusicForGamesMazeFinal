@@ -1221,6 +1221,7 @@ Transform:
   - {fileID: 431690}
   - {fileID: 413924}
   - {fileID: 419094}
+  - {fileID: 1702147509700840215}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6352,3 +6353,78 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1946866498622062531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 437672}
+    m_Modifications:
+    - target: {fileID: 908485671888791796, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterProNighttime
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7c774aac1b50149a281b47d27598aa77, type: 3}
+--- !u!4 &1702147509700840215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 908485671888434388, guid: 7c774aac1b50149a281b47d27598aa77,
+    type: 3}
+  m_PrefabInstance: {fileID: 1946866498622062531}
+  m_PrefabAsset: {fileID: 0}
