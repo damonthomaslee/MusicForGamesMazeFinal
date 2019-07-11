@@ -11,8 +11,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
     public class FirstPersonController : MonoBehaviour
     {
         [SerializeField] private bool m_IsWalking;
-        [SerializeField] private float m_WalkSpeed;
-        [SerializeField] private float m_RunSpeed;
+        [SerializeField] public float m_WalkSpeed;
+        [SerializeField] public float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
         [SerializeField] private float m_JumpSpeed;
         [SerializeField] private float m_StickToGroundForce;
@@ -45,6 +45,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool isWet;
         
 
+
+        
+
         // Use this for initialization
         private void Start()
         {
@@ -57,7 +60,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle/2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
-			m_MouseLook.Init(transform , m_Camera.transform);
+			m_MouseLook.Init(transform , m_Camera.transform);;
+           
+            
+
         }
        
 
@@ -168,8 +174,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 PlayWaterFootSteps();
             }
+            else
+            {
+                
+                PlayFootStepAudio();
+            }
+            
 
-            PlayFootStepAudio();
         }
 
 
@@ -179,13 +190,28 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 isWet = true;
             }
+
+            if (col.CompareTag("Wind"))
+            {
+                m_WalkSpeed = m_WalkSpeed / 2;
+                m_RunSpeed = m_RunSpeed / 2;
+
+            }
+            
         }
 
         private void OnTriggerExit(Collider col)
         {
-            if (!col.CompareTag("water"))
+            if (col.CompareTag("water"))
             {
                 isWet = false;
+            }
+
+            if (col.CompareTag("Wind"))
+            {
+                m_WalkSpeed = m_WalkSpeed * 2;
+                m_RunSpeed = m_RunSpeed * 2;
+                
             }
         }
 
