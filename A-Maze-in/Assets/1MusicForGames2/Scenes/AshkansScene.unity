@@ -144,15 +144,15 @@ MonoBehaviour:
   audioEngine: 0
   sofaFiles: []
   currentSOFAFile: 0
-  materialPreset: 6
+  materialPreset: 2
   materialValue:
-    LowFreqAbsorption: 0.06
-    MidFreqAbsorption: 0.03
-    HighFreqAbsorption: 0.02
+    LowFreqAbsorption: 0.05
+    MidFreqAbsorption: 0.07
+    HighFreqAbsorption: 0.08
     Scattering: 0.05
-    LowFreqTransmission: 0.06
-    MidFreqTransmission: 0.044
-    HighFreqTransmission: 0.011
+    LowFreqTransmission: 0.015
+    MidFreqTransmission: 0.002
+    HighFreqTransmission: 0.001
   simulationPreset: 3
   simulationValue:
     OcclusionSamples: 256
@@ -229,7 +229,7 @@ MonoBehaviour:
   bakedProbeNames: []
   bakedProbeDataSizes: 
   bakedDataSize: 0
-  bakedStatsFoldout: 0
+  bakedStatsFoldout: 1
   bakeToggle: 0
   currentStaticListenerNode: {fileID: 0}
 --- !u!81 &450377614
@@ -240,7 +240,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 2644418626180561635}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450377612}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &450377615
 Transform:
   m_ObjectHideFlags: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
   occlusionMethod: 1
   sourceRadius: 1
   directMixLevel: 0.435
-  reflections: 1
+  reflections: 0
   indirectBinaural: 0
   indirectMixLevel: 1
   simulationType: 0
@@ -527,7 +527,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243837546911391076, guid: 00a4d1a76bbc5470cb87fdbd510937db,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: c1cdc4e676ecd476a9808d19d260e557, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 72f3e046e9d9546c0b6a40ad8e48cd2c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -538,9 +538,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 100
+  MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1305,7 +1305,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 2644418626180561635}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620856891}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1620856895
 Camera:
   m_ObjectHideFlags: 0
@@ -1473,6 +1473,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 450377613, guid: 3bd9db538c7b641ebb794874e6a8211e, type: 3}
+      propertyPath: bakedStatsFoldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 450377614, guid: 3bd9db538c7b641ebb794874e6a8211e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 450377618, guid: 3bd9db538c7b641ebb794874e6a8211e, type: 3}
+      propertyPath: indirectBinaural
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 450377618, guid: 3bd9db538c7b641ebb794874e6a8211e, type: 3}
+      propertyPath: simulationType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 450377618, guid: 3bd9db538c7b641ebb794874e6a8211e, type: 3}
+      propertyPath: reflections
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2644418626431090661, guid: 3bd9db538c7b641ebb794874e6a8211e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1532,6 +1552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644418626427583941, guid: 3bd9db538c7b641ebb794874e6a8211e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd9db538c7b641ebb794874e6a8211e, type: 3}
