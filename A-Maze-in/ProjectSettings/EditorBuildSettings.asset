@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/1MusicForGames2/Scenes/DamonScene.unity
+    guid: c7b0f8fcdf9f14bee991c97097dff53a
+  - enabled: 1
+    path: Assets/1MusicForGames2/Scenes/AshkansScene.unity
+    guid: 8ee49c1aec3d54199a2c984bfd8afcac
+  - enabled: 1
+    path: Assets/1MusicForGames2/Scenes/MeiyanScene.unity
+    guid: fa4e18838114a4e3c8a69374e13c3e63
   m_configObjects: {}
