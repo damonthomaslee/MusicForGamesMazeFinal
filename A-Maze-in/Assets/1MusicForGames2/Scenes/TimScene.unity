@@ -323,6 +323,81 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8af3ede7deb6e4296a079d0b081d0dcc, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 665939f986e124131917e08a92718291, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 45cb35cc7663d4af2ab0fc0e3c4bc06d, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: f84b5be1520824d17bf1b8ea8a2b5999, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4570a90ff8667456c9de9f70daa2297e, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_FootstepSounds.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 52a9053c003544f1ebe462a94a5fea8f, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a5eba27453f14fb1843bbfbde7343a9, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a2ccafded84334a15bbc04dcbc3f8a9a, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 181b9226a91a644528417252c8af1ce5, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: fba66126185284446b63dbc269c804c5, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 207a3a2660e2945cd89ed49795dd1275, type: 3}
+    - target: {fileID: 8282992560180807698, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: WaterFootsteps.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: ac8567132f64f4f088d0c403b5d81648, type: 3}
+    - target: {fileID: 8282992560280046787, guid: 5f19d556fb00642908193c1a937b5d81,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f1bf224796ad1426cb11c89c1148abe1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f19d556fb00642908193c1a937b5d81, type: 3}
 --- !u!1 &1192801629
@@ -358,7 +433,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243837546911391076, guid: 00a4d1a76bbc5470cb87fdbd510937db,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: c1cdc4e676ecd476a9808d19d260e557, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1dd5c4c94bd4f4b678a93e48bc06bda9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
