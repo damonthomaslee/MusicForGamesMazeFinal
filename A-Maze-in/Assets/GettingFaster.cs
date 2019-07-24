@@ -19,8 +19,8 @@ public class GettingFaster : MonoBehaviour
         float distance;
 
 
-        distance = Vector3.Distance(Goal.transform.position, transform.position) / scale;
-        pitch = 1 + (startDistance - distance) * (1 / startDistance);
+        distance = Vector3.Distance(Goal.transform.position, transform.position);
+        pitch = 1 + (startDistance - distance) * (scale / startDistance);
 
         return pitch;
     }
@@ -32,7 +32,6 @@ public class GettingFaster : MonoBehaviour
     {
         Goal = GameObject.Find("Goal");
 
-        scale = 1;
         startDistance = Vector3.Distance(Goal.transform.position, transform.position);
     }
 
