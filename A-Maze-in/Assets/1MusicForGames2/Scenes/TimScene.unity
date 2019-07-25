@@ -663,12 +663,12 @@ MonoBehaviour:
   airAbsorption: 0
   dipoleWeight: 0
   dipolePower: 0
-  occlusionMode: 0
+  occlusionMode: 1
   occlusionMethod: 0
   sourceRadius: 1
   directMixLevel: 1
-  reflections: 0
-  indirectBinaural: 0
+  reflections: 1
+  indirectBinaural: 1
   indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
