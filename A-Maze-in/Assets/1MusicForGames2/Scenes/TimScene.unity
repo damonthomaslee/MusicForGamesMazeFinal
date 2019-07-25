@@ -906,42 +906,42 @@ PrefabInstance:
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[0]
       value: 
-      objectReference: {fileID: 11468034, guid: 355025f29a67a4925977c9dca497bf64,
+      objectReference: {fileID: 11468034, guid: 491d67cae23ac43cb94abbb30930f116,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[1]
       value: 
-      objectReference: {fileID: 11469046, guid: 67fd1c25752f04d8f9be07bf7d437f2e,
+      objectReference: {fileID: 11469046, guid: b1c789d7a1cee43c1a0a08446ed11a4c,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[2]
       value: 
-      objectReference: {fileID: 11469890, guid: 8387bff1510414c46be24620418cf7e5,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[3]
       value: 
-      objectReference: {fileID: 11433894, guid: 7a7727447ef414bf7aa6312322c23c83,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[4]
       value: 
-      objectReference: {fileID: 11472812, guid: 21f19b55e557e4842a24b271a54f06bc,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[6]
       value: 
-      objectReference: {fileID: 11494536, guid: 880f32d044fed4ec8a7345cbacd9ef12,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[5]
       value: 
-      objectReference: {fileID: 11472812, guid: 36031500c8a1047e98f20b07924110f5,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[7]
       value: 
-      objectReference: {fileID: 11469890, guid: aded6945b36cef442ba302649d03ec54,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: newSeedOnGenerate
@@ -979,17 +979,17 @@ PrefabInstance:
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: startRoom
       value: 
-      objectReference: {fileID: 11472812, guid: 6cb7df7225adfb245bb8c4f4ac971917,
+      objectReference: {fileID: 11472812, guid: b0a06085eebaa4e2988841fce1128b1a,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: finishRoom
       value: 
-      objectReference: {fileID: 11458772, guid: 5d365f884c84adf47b2546b803dbbad6,
+      objectReference: {fileID: 11458772, guid: 2e1e62cca6580427cb688724b3d21627,
         type: 3}
     - target: {fileID: 11496046, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
       propertyPath: rooms.Array.data[8]
       value: 
-      objectReference: {fileID: 11458772, guid: 812512f7370df4fdab704f55e20fd52f,
+      objectReference: {fileID: 11433894, guid: bc9258d58ccb8484c98ef0c4342016b4,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3354eed275ad17f42baa390f1e69dddb, type: 3}
