@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2261541319864055744}
   - component: {fileID: 2261541319865404736}
   m_Layer: 0
-  m_Name: FPSController
+  m_Name: DamonFPSController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
