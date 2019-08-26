@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2261541319864055744}
   - component: {fileID: 2261541319865404736}
   m_Layer: 0
-  m_Name: FPSController
+  m_Name: DamonFPSController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -202,7 +202,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2261541319858885792}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243837546911391076, guid: 00a4d1a76bbc5470cb87fdbd510937db,
     type: 2}
